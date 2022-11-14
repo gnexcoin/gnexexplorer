@@ -1,12 +1,12 @@
 [{
-    "owner": "blockbrothers",
-    "url": "seed1.blockbrothers.io:2001",
-    "country": "Germany",
-    "city": "Regensburg",
-    "latlong": [48.99976321609233, 12.118796082110006],
-    "latlong_original": [48.9965, 12.1202],
-    "ip": "2a01:4f8:a0:52ea::2",
-	"status":"offline"
+    "owner": "gnexcoin",
+    "url": "http://api.gnexcoin.com:2001",
+    "country": "USA",
+    "city": "Newyork City",
+    "latlong": [40.7128, 74.0060],
+    "latlong_original": [40.7128, 74.0060],
+    "ip": "104.131.10.41",
+	"status":"online"
   }, {
     "owner": "liondani",
     "url": "seed.liondani.com:2016",
