@@ -7,9 +7,9 @@
         <div class="row">
           <div class="col-12">
             <ul>
-              <li>The first rule of EFTG is: Do not lose your password.</li>
-              <li>The second rule of EFTG is: Nobody can reset your password.</li>
-              <li>The third rule of EFTG is: Nobody can recover your password.</li>
+              <li>The first rule of Gnexcoin is: Do not lose your password.</li>
+              <li>The second rule of Gnexcoin is: Nobody can reset your password.</li>
+              <li>The third rule of Gnexcoin is: Nobody can recover your password.</li>
               <li>The fourth rule: If you can remember the password, it's not secure.</li>
               <li>The fifth rule: Use only randomly-generated passwords.</li>
               <li>The sixth rule: Do not tell anyone your password.</li>
