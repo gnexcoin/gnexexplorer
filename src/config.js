@@ -1,26 +1,26 @@
 const config = {
   'production': {
     RPC_NODES : [
-      'https://api.steemit.com',
+      'http://api.gnexcoin.com',
     ],
     EFTG_HARDFORK_0_1 : false
   },
   'acceptance': {
     RPC_NODES : [
-      'https://api.blkcc.xyz'
+      'http://api.gnexcoin.com'
     ],
     EFTG_HARDFORK_0_1 : false
   },
   'development': {
     RPC_NODES : [
       //'https://testnet.steemitdev.com',
-      'https://api.steemit.com',
+      'http://api.gnexcoin.com',
     ],
     EFTG_HARDFORK_0_1 : true
   },
   'testnet': {
     RPC_NODES : [
-      'https://testnet.steemitdev.com',
+      'http://api.gnexcoin.com',
     ],
     EFTG_HARDFORK_0_1 : false
   },
@@ -32,18 +32,18 @@ const finalConfig = config[environment];
 const PAGE_AFTER_LOGIN = '/'
 const PAGE_AFTER_LOGOUT = '/'
 
-const SBD = 'SBD';
-const STEEM = 'STEEM';
-const SP = 'SP';
+const SBD = 'GBD';
+const STEEM = 'GNEX';
+const SP = 'GP';
 const VESTS = 'VESTS';
 
 const HARDFORK = 21
 
 const EXPLORER = '/explorer/'
-const EXPLORER2 = '/steemexplorer/#/explorer/'
+const EXPLORER2 = '/gnexexplorer/#/explorer/'
 const DSTEEM_TIMEOUT = 5000 //ms
 
-const STEEM_ADDRESS_PREFIX = 'STM';
+const STEEM_ADDRESS_PREFIX = 'GNX';
 //const STEEM_ADDRESS_PREFIX = 'TST';
 const STEEM_100_PERCENT = 10000;
 const STEEM_VOTE_REGENERATION_SECONDS = 5 * 24 * 60 * 60;
@@ -54,7 +54,7 @@ const STEEM_BLOCKS_PER_YEAR = (365 * 24 * 60 * 60) / 3;
 const STEEM_BLOCKS_PER_DAY = (24 * 60 * 60) / 3;
 const STEEM_SBD_START_PERCENT = 900;
 const STEEM_SBD_STOP_PERCENT = 1000;
-const STEEM_CHAIN_ID = '0000000000000000000000000000000000000000000000000000000000000000'
+const STEEM_CHAIN_ID = 'b3f32f410037a129b990f29230698048fe895e23e7dc297fd6f6e9d167a62571'
 //const STEEM_CHAIN_ID = '46d82ab7d8db682eb1959aed0ada039a6d49afa1602491f93dde9cac3e8e6c32'
 const STEEM_PROPOSAL_MAX_IDS_NUMBER = 5
 
@@ -77,9 +77,9 @@ export default {
   PAGE_AFTER_LOGIN,
   PAGE_AFTER_LOGOUT,
   
-  SBD: SBD,
-  STEEM: STEEM,
-  SP: SP,
+  GBD: SBD,
+  GNEX: STEEM,
+  GP: SP,
   VESTS: VESTS,
   HARDFORK: HARDFORK,
   
