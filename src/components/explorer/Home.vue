@@ -2,7 +2,7 @@
   <div class="home">
     <HeaderEFTG ref="headerEFTG"></HeaderEFTG>     
     <div class="container">
-    <h1>Steem Explorer</h1>
+    <h1>Gnex Coin Explorer</h1>
     <div class="row">
     <div class="col-md-3">
       <div v-if="this.exists.globals">
@@ -13,7 +13,7 @@
           ><hr>virtual {{this.chain.virtual_supply}}
         </div>
         <div class="card">
-          <div class="title">Steem Price</div><br
+          <div class="title">Gnexcoin Price</div><br
           >Witnesses price: ${{this.chain.witnesses_price.toFixed(4)}}<br
           >Haircut: ${{this.chain.haircut_price.toFixed(4)}}<br
           ><hr>Feed price: ${{this.chain.feed_price.toFixed(4)}}
@@ -58,7 +58,7 @@
           >vote of {{this.chain.vote_value_1000_sp.toFixed(3)}} per 1000 {{this.SP_SYMBOL}}
           <br><hr>
           recent claims {{this.chain.recent_claims}}<br>
-          <a href="https://steemit.com/@jga/complete-guide-to-understand-rewards-in-hf21-part-1">gap</a>: {{this.chain.gap.toFixed(3)}} {{this.STEEM_SYMBOL}} ({{this.chain.gap_sbd.toFixed(3)}} {{this.SBD_SYMBOL}})
+          <a href="http://gnexcoin.com/@starfall">gap</a>: {{this.chain.gap.toFixed(3)}} {{this.STEEM_SYMBOL}} ({{this.chain.gap_sbd.toFixed(3)}} {{this.SBD_SYMBOL}})
           <hr>Post payout simulation {{example_post.payout.toFixed(3)}} {{this.SBD_SYMBOL}}
           <br>claims per rshare {{example_post.claims_per_rshare.toFixed(4)}}
           <br><input type="range" min="0" max="500" v-model="example_post.slider" class="slider" id="slider-example-post">
